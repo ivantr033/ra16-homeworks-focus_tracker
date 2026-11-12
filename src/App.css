@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #242424;
+    color: rgba(255, 255, 255, 0.87);
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.app-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 12px;
+}
+
+.custom-input {
+    padding: 8px 12px;
+    font-size: 1rem;
+    border: 1px solid #666;
+    border-radius: 4px;
+    background-color: #3b3b3b;
+    color: #ffffff;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.custom-input.focused {
+    border-color: #646cff;
+    box-shadow: 0 0 0 2px rgba(100, 108, 255, 0.3);
+}
+
+.focus-status {
+    margin: 0;
+    font-size: 1rem;
+    color: #e0e0e0;
+}
